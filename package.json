@@ -1,0 +1,23 @@
+{
+  "id": "d5263b39-48ce-47ff-8ae8-41573cdc98cf",
+  "name": "most-evaluation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha 'src/**/*.test.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@most/core": "^1.6.1",
+    "@most/scheduler": "^1.3.0",
+    "most-dispatch": "^2.1.0",
+    "most-from-array": "^1.0.3",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
